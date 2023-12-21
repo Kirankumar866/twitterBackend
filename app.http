@@ -1,0 +1,29 @@
+
+
+###
+
+###API 1 --Register user
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    
+    "username": "kiran123",
+    "password": "kiran",
+    "name": "kiran",
+    
+    "gender": "male"
+}
+
+###API 2 - login
+
+###
+POST http://localhost:3000/login/
+
+Content-Type: application/json
+
+
+{
+    "username": "JoeBiden",
+    "password": "biden@123"
+}
